@@ -2,6 +2,8 @@ const express = require('express');
 const RateLimit = require('express-rate-limit');
 const app = express();
 
+const port = process.env.PORT || 3000;
+
 const user = new Object();
 user.id = "ja2S-hs81-ksn3-iQI9";
 user.name = "Jon Snow";
@@ -60,4 +62,4 @@ app.delete('/user/:userId', function (req, res) {
   }
 });
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'));
+app.listen(port, () => console.log(`App running on ${port}`));
