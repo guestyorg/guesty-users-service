@@ -1,7 +1,7 @@
 ## Test JS app 
-owners: accounting team 
-runs: AWS Lambda eu-central-1 region
-account: Guesty management
+- owners: accounting team 
+- runs: AWS Lambda eu-central-1 region
+- account: Guesty management
 
 ### Creates lambda in eu-central-1 region with name from package.json
 ```bash 
