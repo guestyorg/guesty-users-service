@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "users-service-executor",
+    "name": "users-service",
+    "region": "eu-central-1"
+  },
+  "api": {
+    "id": "c6m1lqyqwa"
+  }
+}

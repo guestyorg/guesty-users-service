@@ -1,8 +1,8 @@
+'use strict'
 const express = require('express');
 const RateLimit = require('express-rate-limit');
 const app = express();
 
-const port = process.env.PORT || 3000;
 
 const user = new Object();
 user.id = "ja2S-hs81-ksn3-iQI9";
@@ -62,4 +62,4 @@ app.delete('/user/:userId', function (req, res) {
   }
 });
 
-app.listen(port, () => console.log(`App running on ${port}`));
+module.exports = app
